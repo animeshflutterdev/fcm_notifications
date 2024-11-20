@@ -2,11 +2,13 @@ import firebase_admin
 from firebase_admin import credentials, messaging
 from flask import Flask, request, jsonify
 
+from creds import retailerShakti_json
+
 # Initialize Flask app
 app = Flask(__name__)
 
 # Initialize Firebase Admin
-cred = credentials.Certificate("retailershakti-6527c-firebase-adminsdk-cdj19-a7f6d3304e.json")
+cred = credentials.Certificate(retailerShakti_json)
 firebase_admin.initialize_app(cred)
 
 

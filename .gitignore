@@ -1,0 +1,17 @@
+# Python-related
+*.pyc
+__pycache__/
+
+# Environment files
+.env
+
+# Virtual environments
+venv/
+env/
+
+# IDE-specific files
+.idea/
+.vscode/
+
+retailershakti-6527c-firebase-adminsdk-cdj19-a7f6d3304e.json
+retailershakti-delivery-firebase-adminsdk-2k5kk-200e125f93.json
