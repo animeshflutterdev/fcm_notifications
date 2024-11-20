@@ -13,5 +13,7 @@ env/
 .idea/
 .vscode/
 
+creds.py
+
 retailershakti-6527c-firebase-adminsdk-cdj19-a7f6d3304e.json
 retailershakti-delivery-firebase-adminsdk-2k5kk-200e125f93.json
